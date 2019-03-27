@@ -10,7 +10,7 @@
 #////                                                                       ////
 #///////////////////////////////////////////////////////////////////////////////
 #///////////////////////////////////////////////////////////////////////////////
-echo Selamat datang kak, Siapa nick kaka? #tulisan keluar
+echo Selamat datang di hacker indo, Siapa nick kaka? #tulisan keluar
 read nick #membaca yang ditulis
 echo "             . "
 sleep 0.03
@@ -49,7 +49,7 @@ sleep 0.7
 echo "==============================="
 echo " Tools Pencegah Penipuan Online "
 
-echo Selamat datang di hacker indo $nick ":)"
+echo Selamat datang $nick ":)"
 get_url=$(curl -s http://zlucifer.com/api/nik.php)
 cek='curl -s '$get_url # check status
 response=`curl -s -o /dev/null -w "%{http_code}" $cek`
